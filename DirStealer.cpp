@@ -32,7 +32,7 @@ int main()
 	server = socket(AF_INET, SOCK_STREAM, 0);
 	addr.sin_addr.s_addr = inet_addr("IP_ADDRESS"); // change IP_ADDRESS with your listening IP
 	addr.sin_family = AF_INET;
-	addr.sin_port = htons(PORT); // change your PORT with your listening port
+	addr.sin_port = htons(PORT); // change PORT with your listening port
 	connect(server, (SOCKADDR *)&addr, sizeof(addr));
 
 	//printf("conntected");
