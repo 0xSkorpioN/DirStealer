@@ -18,9 +18,9 @@ You might want to use the kali linux built-in netcat as well; it's up to you.
 
 Navigate to the directory where netcat resides. Then, run:
 
-`nc.exe -lvp 5555 (or the port you specified in the source above) <- For Windows`
+`nc.exe -lvp 5555 (or the port you specified in the source code) <- For Windows`
 
-`nc -lvp 5555 (or the port you specified in the source above) <- For Linux`
+`nc -lvp 5555 (or the port you specified in the source code) <- For Linux`
 
 **TIP: If your program is not connecting and you are using Windows, check the Firewall settings. It is possible that the firewall is blocking you, so you might want to turn it off for this exercise.**
 
